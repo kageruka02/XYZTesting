@@ -1,0 +1,125 @@
+name: XYZ Bank — Test Automation CI
+
+on:
+  push:
+    branches: [ "main", "develop", "feature/**" ]
+  pull_request:
+    branches: [ "main", "develop" ]
+  workflow_dispatch:          # allow manual trigger from GitHub UI
+
+env:
+  JAVA_VERSION: "21"
+  MAVEN_OPTS: "-Xmx2g -XX:+UseG1GC"
+
+jobs:
+  test:
+    name: Run Selenium Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+
+      # ── Checkout ────────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── Java ────────────────────────────────────────────────────────────────
+      - name: Set up JDK ${{ env.JAVA_VERSION }}
+        uses: actions/setup-java@v4
+        with:
+          distribution: "temurin"
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: maven
+
+      # ── Chrome ──────────────────────────────────────────────────────────────
+      - name: Set up Chrome
+        uses: browser-actions/setup-chrome@latest
+
+      # ── Dependencies (offline prefetch for speed) ────────────────────────────
+      - name: Cache Maven dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      # ── Test execution ───────────────────────────────────────────────────────
+      - name: Run tests (headless Chrome)
+        run: |
+          mvn clean test \
+            -Dheadless=true \
+            -Dbrowser=chrome \
+            -B \
+            --no-transfer-progress
+        env:
+          CI: "true"
+
+      # ── Upload Allure results (even on failure) ──────────────────────────────
+      - name: Upload Allure results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: target/allure-results
+          retention-days: 14
+
+      # ── Upload screenshots (even on failure) ────────────────────────────────
+      - name: Upload screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-screenshots
+          path: target/screenshots
+          retention-days: 7
+          if-no-files-found: ignore
+
+      # ── Upload logs ──────────────────────────────────────────────────────────
+      - name: Upload test logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-logs
+          path: target/logs
+          retention-days: 7
+          if-no-files-found: ignore
+
+  # ── Allure Report ───────────────────────────────────────────────────────────
+  allure-report:
+    name: Generate Allure Report
+    needs: test
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download Allure results artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: allure-results
+          path: target/allure-results
+
+      - name: Generate Allure HTML report
+        uses: simple-elf/allure-report-action@master
+        with:
+          allure_results: target/allure-results
+          allure_history: allure-history
+          keep_reports: 20
+
+      - name: Upload Allure HTML report
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: allure-report
+          retention-days: 30
+
+      # Optional: publish to GitHub Pages
+      - name: Deploy report to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: allure-report

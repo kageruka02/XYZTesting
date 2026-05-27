@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+  XYZ Bank Test Suite
+  ─────────────────────────────────────────────────────────────────────────────
+  parallel="classes" — each class runs in its own thread (safe with ThreadLocal driver)
+  thread-count="3"   — up to 3 browsers open simultaneously
+  Use -Dparallel=methods and -DthreadCount=N to override from the command line.
+-->
+<suite name="XYZ Bank Test Suite"
+       parallel="classes"
+       thread-count="3"
+       verbose="2">
+
+    <!-- ── Manager Tests ───────────────────────────────────────────────────── -->
+    <test name="Bank Manager Tests">
+        <classes>
+            <class name="tests.manager.AddCustomerTest"/>
+            <class name="tests.manager.CreateAccountTest"/>
+            <class name="tests.manager.DeleteCustomerTest"/>
+        </classes>
+    </test>
+
+    <!-- ── Customer Tests ─────────────────────────────────────────────────── -->
+    <test name="Customer Tests">
+        <classes>
+            <class name="tests.customer.CustomerLoginTest"/>
+            <class name="tests.customer.DepositTest"/>
+            <class name="tests.customer.WithdrawTest"/>
+            <class name="tests.customer.TransactionTest"/>
+        </classes>
+    </test>
+
+</suite>

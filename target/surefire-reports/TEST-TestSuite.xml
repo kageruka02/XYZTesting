@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="164.796" tests="41" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Amalitech\.cache\selenium\chromedriver\win64\148.0.7778.178\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Amalitech\IdeaProjects\XYZTesting\target\test-classes;C:\Users\Amalitech\IdeaProjects\XYZTesting\target\classes;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\Amalitech\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\Amalitech\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Amalitech\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amalitech\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amalitech\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Amalitech\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Amalitech\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\Amalitech\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\Amalitech\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Amalitech\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Amalitech\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Amalitech\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Amalitech\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Amalitech\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Amalitech\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Amalitech\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Amalitech\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Amalitech\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Amalitech\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Amalitech\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Amalitech\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\Amalitech\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Amalitech\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Amalitech\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Amalitech\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Amalitech\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Amalitech\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Amalitech\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Amalitech\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Amalitech\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Amalitech\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Amalitech\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Amalitech\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\Amalitech\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\Amalitech\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Kigali"/>
+    <property name="user.country.format" value="RW"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin"/>
+    <property name="sun.java.command" value="C:\Users\Amalitech\AppData\Local\Temp\surefire7648164657416860893\surefirebooter-20260528003619018_3.jar C:\Users\Amalitech\AppData\Local\Temp\surefire7648164657416860893 2026-05-28T00-36-18_864-jvmRun1 surefire-20260528003619018_1tmp surefire_0-20260528003619018_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Amalitech\IdeaProjects\XYZTesting\target\test-classes;C:\Users\Amalitech\IdeaProjects\XYZTesting\target\classes;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-java\4.20.0\selenium-java-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-api\4.20.0\selenium-api-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.20.0\selenium-chrome-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.20.0\selenium-chromium-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-json\4.20.0\selenium-json-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.20.0\selenium-manager-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v122\4.20.0\selenium-devtools-v122-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.20.0\selenium-devtools-v123-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.20.0\selenium-devtools-v124-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.20.0\selenium-devtools-v85-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.20.0\selenium-edge-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.20.0\selenium-firefox-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-http\4.20.0\selenium-http-4.20.0.jar;C:\Users\Amalitech\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.20.0\selenium-ie-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.20.0\selenium-remote-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\com\google\guava\guava\33.1.0-jre\guava-33.1.0-jre.jar;C:\Users\Amalitech\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Amalitech\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Amalitech\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Amalitech\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Amalitech\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Amalitech\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-api\1.37.0\opentelemetry-api-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-context\1.37.0\opentelemetry-context-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.37.0\opentelemetry-exporter-logging-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.37.0\opentelemetry-sdk-common-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.37.0\opentelemetry-sdk-extension-autoconfigure-spi-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.37.0\opentelemetry-sdk-extension-autoconfigure-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.37.0-alpha\opentelemetry-api-incubator-1.37.0-alpha.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.37.0\opentelemetry-sdk-trace-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.37.0\opentelemetry-sdk-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.37.0\opentelemetry-sdk-metrics-1.37.0.jar;C:\Users\Amalitech\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.37.0\opentelemetry-sdk-logs-1.37.0.jar;C:\Users\Amalitech\.m2\repository\net\bytebuddy\byte-buddy\1.14.14\byte-buddy-1.14.14.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-os\4.20.0\selenium-os-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.20.0\selenium-safari-driver-4.20.0.jar;C:\Users\Amalitech\.m2\repository\org\seleniumhq\selenium\selenium-support\4.20.0\selenium-support-4.20.0.jar;C:\Users\Amalitech\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Amalitech\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Amalitech\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Amalitech\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Amalitech\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Amalitech\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Amalitech\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Amalitech\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Amalitech\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Amalitech\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Amalitech\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Amalitech\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Amalitech\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Amalitech\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\Amalitech\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\Amalitech\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\Amalitech\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\Amalitech\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\Amalitech\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Amalitech\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Amalitech\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\Amalitech\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\Amalitech\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\Amalitech\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\Amalitech\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Amalitech\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Amalitech\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\Amalitech\.m2\repository\ch\qos\logback\logback-classic\1.5.6\logback-classic-1.5.6.jar;C:\Users\Amalitech\.m2\repository\ch\qos\logback\logback-core\1.5.6\logback-core-1.5.6.jar;C:\Users\Amalitech\.m2\repository\org\aspectj\aspectjweaver\1.9.22\aspectjweaver-1.9.22.jar;"/>
+    <property name="allure.results.directory" value="C:\Users\Amalitech\IdeaProjects\XYZTesting\target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Amalitech"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21.0.10"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Amalitech\IdeaProjects\XYZTesting"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Amalitech\AppData\Local\Temp\surefire7648164657416860893\surefirebooter-20260528003619018_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.10+8-LTS-217"/>
+    <property name="user.name" value="Amalitech"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Amalitech\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\AMALIT~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.10"/>
+    <property name="user.dir" value="C:\Users\Amalitech\IdeaProjects\XYZTesting"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Amalitech\.local\bin;C:\Users\Amalitech\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-21.0.10\bin;C:\Program Files\apache-maven-3.9.14\bin;C:\Users\Amalitech\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Amalitech\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.10+8-LTS-217"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testAddCustomerFormIsVisible" classname="tests.manager.AddCustomerTest" time="2.714">
+    <system-out><![CDATA[...
+... TestNG 7.10.1 by Cédric Beust (cedric@beust.com)
+...
+
+00:36:23.389 [main] INFO  utils.ConfigReader - Loaded configuration from config.properties
+00:36:23.948 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testCustomersListTableIsVisible ===
+00:36:23.948 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerFormIsVisible ===
+00:36:23.948 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCreateAccountForExistingCustomer ===
+00:36:23.950 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+00:36:23.950 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:36:23.950 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+00:36:31.188 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:31.265 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:31.266 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:31.807 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:31.807 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:31.807 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:33.251 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+00:36:33.253 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:36:33.597 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+00:36:34.114 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Harry Potter
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:28 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:28 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddCustomerWithInvalidData[Harry123, Potter, E859AA, numbers in first name](1)" classname="tests.manager.AddCustomerTest" time="3.065">
+    <system-out><![CDATA[00:36:42.232 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCreateAccountForExistingCustomer
+00:36:42.328 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+00:36:42.349 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+00:36:42.458 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+00:36:42.464 [TestNG-test-Bank Manager Tests-1] WARN  tests.manager.AddCustomerTest - Scenario 'numbers in first name' produced alert: Customer added successfully with customer id :6
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCustomerWithInvalidData[Harry@#, Potter, E859AA, special characters in first name](2)" classname="tests.manager.AddCustomerTest" time="1.639">
+    <system-out><![CDATA[00:36:49.239 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCreateAccountForExistingCustomer
+00:36:49.271 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+00:36:49.478 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+00:36:49.490 [TestNG-test-Bank Manager Tests-1] WARN  tests.manager.AddCustomerTest - Scenario 'special characters in first name' produced alert: Customer added successfully with customer id :6
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCustomerWithInvalidData[, Potter, E859AA, empty first name](3)" classname="tests.manager.AddCustomerTest" time="3.27">
+    <system-out><![CDATA[00:36:57.482 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testSearchForDeletedCustomerReturnsEmpty
+00:36:57.492 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+00:36:57.495 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testOpenAccountFormIsVisible ===
+00:36:57.496 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+00:36:57.712 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCustomerWithInvalidData[Harry, , E859AA, empty last name](4)" classname="tests.manager.AddCustomerTest" time="4.026">
+    <system-out><![CDATA[00:37:03.235 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testOpenAccountFormIsVisible
+00:37:03.448 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+00:37:03.491 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:37:05.376 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCustomerWithInvalidData[Harry, Potter, , empty post code](5)" classname="tests.manager.AddCustomerTest" time="3.589">
+    <system-out><![CDATA[00:37:05.612 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+00:37:05.966 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:37:05.977 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+00:37:05.977 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:37:09.882 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:09.889 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: empty post code
+00:37:09.898 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:12.227 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:37:13.275 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:07 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:07 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddCustomerWithValidData[Harry, Potter, E859AA](1)" classname="tests.manager.AddCustomerTest" time="3.194">
+    <system-out><![CDATA[00:37:13.475 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+00:37:13.727 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:37:13.735 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithValidData ===
+00:37:13.735 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:37:17.633 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:17.649 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:19.553 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:37:20.702 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+00:37:20.822 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+00:37:20.826 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Customer 'Harry  Potter' added. Alert: Customer added successfully with customer id :6
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:14 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddCustomerWithValidData[Albus, Dumbledore, D118OE](2)" classname="tests.manager.AddCustomerTest" time="3.797">
+    <system-out><![CDATA[00:37:20.829 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithValidData
+00:37:21.393 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:37:21.393 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithValidData ===
+00:37:21.393 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:37:25.844 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:25.864 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:27.758 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:37:29.419 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+00:37:29.625 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+00:37:29.632 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Customer 'Albus  Dumbledore' added. Alert: Customer added successfully with customer id :6
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testAddCustomerWithValidData[Hermione, Granger, HP11AA](3)" classname="tests.manager.AddCustomerTest" time="3.189">
+    <system-out><![CDATA[00:37:29.648 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithValidData
+00:37:29.954 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:37:29.961 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithValidData ===
+00:37:29.962 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:37:33.529 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:33.542 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:35.422 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:37:36.509 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+00:37:36.697 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+00:37:36.707 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Customer 'Hermione  Granger' added. Alert: Customer added successfully with customer id :6
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:31 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:31 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSubmitButtonIsEnabled" classname="tests.manager.AddCustomerTest" time="2.874">
+    <system-out><![CDATA[00:37:36.721 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithValidData
+00:37:36.978 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:37:36.981 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testSubmitButtonIsEnabled ===
+00:37:36.981 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:37:40.871 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:40.879 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:42.840 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCustomersListTableIsVisible" classname="tests.manager.DeleteCustomerTest" time="2.875">
+    <system-out><![CDATA[00:36:34.224 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerFormIsVisible
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteCustomerRemovedFromList" classname="tests.manager.DeleteCustomerTest" time="5.605">
+    <system-out><![CDATA[00:36:42.478 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+00:36:42.559 [TestNG-test-Bank Manager Tests-3] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+00:36:42.568 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+00:36:42.765 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+00:36:42.767 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCreateAccountForExistingCustomer ===
+00:36:42.767 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+00:36:42.781 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:36:42.786 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+00:36:42.786 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:36:44.011 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.CustomersPage - Searching for customer: DeleteMe 
+00:36:44.562 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.CustomersPage - Deleted customer: DeleteMe 
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:43 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testPreSeededCustomersExist" classname="tests.manager.DeleteCustomerTest" time="3.688">
+    <system-out><![CDATA[00:36:49.497 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+00:36:49.519 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+00:36:49.524 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCustomerAndCurrencyDropdownsWork ===
+00:36:49.524 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+00:36:49.739 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:36:49.742 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+00:36:49.742 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:36:50.033 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:50 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testSearchForDeletedCustomerReturnsEmpty" classname="tests.manager.DeleteCustomerTest" time="2.755">
+    <system-out><![CDATA[00:36:57.022 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCustomerAndCurrencyDropdownsWork
+00:36:57.281 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.CustomersPage - Searching for customer: DefinitelyNotExist_XYZ_9999
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateAccountForExistingCustomer[Harry Potter, Dollar](1)" classname="tests.manager.CreateAccountTest" time="3.794">
+    <system-out><![CDATA[00:36:34.386 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testCustomersListTableIsVisible
+00:36:34.522 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Dollar
+00:36:34.661 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:36:34.733 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+00:36:34.772 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testDeleteCustomerRemovedFromList ===
+00:36:34.772 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+00:36:34.832 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Clicking Process button
+00:36:35.259 [TestNG-test-Bank Manager Tests-2] INFO  utils.WaitUtils - Alert text: Account created successfully with account Number :1016
+Account created successfully with account Number :1016
+00:36:35.288 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Account created for 'Harry Potter' (Dollar). Alert: Account created successfully with account Number :1016
+]]></system-out>
+  </testcase>
+  <testcase name="testCreateAccountForExistingCustomer[Hermoine Granger, Pound](2)" classname="tests.manager.CreateAccountTest" time="2.821">
+    <system-out><![CDATA[00:36:35.302 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCreateAccountForExistingCustomer
+00:36:35.881 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+00:36:35.887 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCreateAccountForExistingCustomer ===
+00:36:35.887 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+00:36:36.482 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+00:36:36.485 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:36:38.987 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:39.006 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:39.317 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:39.335 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:39.409 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:39.415 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: numbers in first name
+00:36:39.426 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:40.933 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+00:36:41.161 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:36:41.224 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:36:41.725 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Hermoine Granger
+00:36:41.942 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Pound
+00:36:42.081 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Clicking Process button
+00:36:42.216 [TestNG-test-Bank Manager Tests-2] INFO  utils.WaitUtils - Alert text: Account created successfully with account Number :1016
+Account created successfully with account Number :1016
+00:36:42.228 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Account created for 'Hermoine Granger' (Pound). Alert: Account created successfully with account Number :1016
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCreateAccountForExistingCustomer[Ron Weasly, Rupee](3)" classname="tests.manager.CreateAccountTest" time="1.383">
+    <system-out><![CDATA[00:36:45.016 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testDeleteCustomerRemovedFromList
+00:36:45.227 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+00:36:45.232 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testPreSeededCustomersExist ===
+00:36:45.232 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+00:36:45.464 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:45.485 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: special characters in first name
+00:36:45.809 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:45.968 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:45.999 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:47.741 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+00:36:47.787 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:36:47.828 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:48.240 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:48.575 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Ron Weasly
+00:36:48.869 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Rupee
+00:36:49.025 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Clicking Process button
+00:36:49.224 [TestNG-test-Bank Manager Tests-2] INFO  utils.WaitUtils - Alert text: Account created successfully with account Number :1016
+Account created successfully with account Number :1016
+00:36:49.234 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Account created for 'Ron Weasly' (Rupee). Alert: Account created successfully with account Number :1016
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCustomerAndCurrencyDropdownsWork" classname="tests.manager.CreateAccountTest" time="2.295">
+    <system-out><![CDATA[00:36:51.544 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testPreSeededCustomersExist
+00:36:51.848 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+00:36:51.848 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testSearchForDeletedCustomerReturnsEmpty ===
+00:36:51.848 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+00:36:53.377 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:53.398 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:53.483 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:53.518 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: empty first name
+00:36:54.053 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:54.724 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:36:54.741 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+00:36:55.760 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+00:36:56.411 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+00:36:56.489 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Harry Potter
+00:36:56.500 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+00:36:56.744 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Dollar
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:52 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:52 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testOpenAccountFormIsVisible" classname="tests.manager.CreateAccountTest" time="1.649">
+    <system-out><![CDATA[00:36:57.998 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+00:36:58.544 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+00:36:58.603 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:36:58.607 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+00:36:58.607 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+00:37:00.421 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:00.432 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:01.579 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:01.588 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: empty last name
+00:37:01.601 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+00:37:02.261 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:36:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:58 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:36:59 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:36:59 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testCustomerDropdownVisible" classname="tests.customer.CustomerLoginTest" time="1.278">
+    <system-out><![CDATA[00:37:43.747 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testSubmitButtonIsEnabled
+00:37:44.297 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+00:37:44.364 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testBalanceIncreasesAfterDeposit ===
+00:37:44.364 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testCustomerDropdownVisible ===
+00:37:44.364 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+00:37:44.364 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:37:44.364 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testBalanceDecreasesAfterWithdrawal ===
+00:37:44.364 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+00:37:47.686 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:47.697 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:37:47.920 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:48.321 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:48.333 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+00:37:48.363 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:37:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:37:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:45 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginButtonDisabledBeforeSelection" classname="tests.customer.CustomerLoginTest" time="1.936">
+    <system-out><![CDATA[00:37:54.056 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testBalanceIncreasesAfterDeposit
+00:37:54.057 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+00:37:54.444 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+00:37:54.458 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositInvalidAmount ===
+00:37:54.458 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+00:37:54.839 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+00:37:55.085 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:37:55.268 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:37:55.704 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithValidCustomer[Harry Potter](1)" classname="tests.customer.CustomerLoginTest" time="2.67">
+    <system-out><![CDATA[00:37:55.978 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testBalanceDecreasesAfterWithdrawal
+00:37:56.017 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:37:56.023 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+00:37:56.023 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:37:56.187 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+00:37:56.187 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawFullBalance ===
+00:37:56.191 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+00:37:57.450 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:57.456 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Invalid deposit scenario: negative amount
+00:37:57.472 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+00:37:58.845 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:58.861 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:37:59.127 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:59.137 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:37:59.360 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:37:59.876 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:00.627 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:00.647 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+00:38:00.905 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+00:38:01.051 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:01.182 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:01.525 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:01.797 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Harry Potter' logged in. Welcome: Harry Potter
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:37:57 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:57 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithValidCustomer[Hermoine Granger](2)" classname="tests.customer.CustomerLoginTest" time="0.109">
+    <system-out><![CDATA[00:38:05.155 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawFullBalance
+00:38:05.648 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+00:38:05.649 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawValidAmount ===
+00:38:05.651 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+00:38:05.771 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:05.786 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:07.634 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Hermoine Granger
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:08.001 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:08.677 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:08.687 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:38:08.787 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Hermoine Granger' logged in. Welcome: Hermoine Granger
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithValidCustomer[Ron Weasly](3)" classname="tests.customer.CustomerLoginTest" time="2.939">
+    <system-out><![CDATA[00:38:14.425 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawValidAmount
+00:38:14.608 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+00:38:14.610 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawWithInsufficientBalance ===
+00:38:14.610 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+00:38:14.912 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Ron Weasly' logged in. Welcome: Ron Weasly
+]]></system-out>
+  </testcase>
+  <testcase name="testLoginWithValidCustomer[Albus Dumbledore](4)" classname="tests.customer.CustomerLoginTest" time="1.466">
+    <system-out><![CDATA[00:38:16.929 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositInvalidAmount
+00:38:17.187 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+00:38:17.190 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositInvalidAmount ===
+00:38:17.190 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+00:38:17.559 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:17.572 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:38:18.088 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:18.102 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:19.545 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:20.060 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Albus Dumbledore
+00:38:20.152 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:20.163 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:20.170 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Invalid deposit scenario: zero amount
+00:38:20.186 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:20.790 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:21.154 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:21.628 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Albus Dumbledore' logged in. Welcome: Albus Dumbledore
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:18 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithValidCustomer[Neville Longbottom](5)" classname="tests.customer.CustomerLoginTest" time="1.484">
+    <system-out><![CDATA[00:38:24.488 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawWithInsufficientBalance
+00:38:25.082 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+00:38:25.084 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawZeroAmount ===
+00:38:25.084 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+00:38:25.778 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:25.796 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:27.994 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:28.006 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:38:28.144 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Neville Longbottom
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:28.640 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:29.478 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Neville Longbottom' logged in. Welcome: Neville Longbottom
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:25 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:25 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testLogoutReturnsToHomePage" classname="tests.customer.CustomerLoginTest" time="3.116">
+    <system-out><![CDATA[00:38:29.478 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+00:38:29.941 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:38:30.032 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:30.034 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLogoutReturnsToHomePage ===
+00:38:30.034 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:30.314 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:31.206 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+00:38:32.043 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+00:38:33.089 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:33.100 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:34.828 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:35.181 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:36.008 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Logging out
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testBalanceIncreasesAfterDeposit" classname="tests.customer.DepositTest" time="0.227">
+    <system-out><![CDATA[00:37:49.602 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testCustomerDropdownVisible
+00:37:49.838 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:37:49.842 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginButtonDisabledBeforeSelection ===
+00:37:49.842 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:37:50.357 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:37:50.357 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+Option: 'Neville Longbottom'
+00:37:51.282 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:37:51.291 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:37:52.034 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:37:52.077 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:37:53.096 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:37:53.098 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:37:53.315 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+00:37:53.317 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:37:53.497 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:37:53.503 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+Option: 'Neville Longbottom'
+00:37:53.819 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:37:53.837 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:37:53.885 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:37:53.893 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:37:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:37:51 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testDepositInvalidAmount[-100, negative amount](1)" classname="tests.customer.DepositTest" time="4.952">
+    <system-out><![CDATA[00:38:14.916 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+00:38:15.207 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:15.210 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+00:38:15.210 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:38:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:16 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testDepositInvalidAmount[0, zero amount](2)" classname="tests.customer.DepositTest" time="6.281">
+    <system-out><![CDATA[00:38:36.207 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLogoutReturnsToHomePage
+00:38:36.690 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:36.692 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - === Starting test: testBackButtonReturnsToDashboard ===
+00:38:36.692 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:37 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testDepositValidAmount[1000, standard deposit](1)" classname="tests.customer.DepositTest" time="3.999">
+    <system-out><![CDATA[00:38:45.750 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - TEST PASSED: testBackButtonReturnsToDashboard
+00:38:45.970 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:45.972 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - === Starting test: testTransactionHistoryIsReadOnly ===
+00:38:45.972 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:38:46.187 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:46.499 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Deposited 1000. Result: Deposit Successful
+]]></system-out>
+  </testcase>
+  <testcase name="testDepositValidAmount[500, small deposit](2)" classname="tests.customer.DepositTest" time="4.466">
+    <system-out><![CDATA[00:38:47.523 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawZeroAmount
+00:38:47.807 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+00:38:49.936 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:49.941 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Test scenario: small deposit
+00:38:49.961 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+00:38:50.020 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:50.029 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:51.875 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:38:51.890 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+Option: 'Neville Longbottom'
+00:38:52.345 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:52.357 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:53.055 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:53.105 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:54.158 [TestNG-test-Customer Tests-1] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:54.181 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:54.382 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:54.484 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Deposited 500. Result: Deposit Successful
+]]></system-out>
+  </testcase>
+  <testcase name="testDepositValidAmount[9999, large deposit](3)" classname="tests.customer.DepositTest" time="3.243">
+    <system-out><![CDATA[00:38:55.760 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - TEST PASSED: testTransactionHistoryIsReadOnly
+00:38:56.005 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:56.009 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - === Starting test: testTransactionHistoryPageIsAccessible ===
+00:38:56.009 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:38:57.693 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:57.697 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Test scenario: large deposit
+00:38:57.709 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+00:38:59.003 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:59.017 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:59.507 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:39:00.123 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:39:00.797 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:39:00.898 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:39:01.202 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:39:01.823 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:39:01.949 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:39:02.251 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Deposited 9999. Result: Deposit Successful
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:56 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testBalanceDecreasesAfterWithdrawal" classname="tests.customer.WithdrawTest" time="2.151">
+    <system-out><![CDATA[00:37:55.766 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginButtonDisabledBeforeSelection
+]]></system-out>
+  </testcase>
+  <testcase name="testWithdrawFullBalance" classname="tests.customer.WithdrawTest" time="6.021">
+    <system-out><![CDATA[00:38:01.802 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+00:38:01.865 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:02.047 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:02.051 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+00:38:02.051 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:38:02.856 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:03.017 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:38:03.197 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:03.661 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:03.946 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+00:38:04.848 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:03 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testWithdrawValidAmount" classname="tests.customer.WithdrawTest" time="2.446">
+    <system-out><![CDATA[00:38:08.789 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+00:38:09.231 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:09.233 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+00:38:09.233 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:38:10.394 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:10.687 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:11.421 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:11.977 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:11.988 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:12.350 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:12.574 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:38:12.769 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:13.220 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:13.419 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+00:38:13.772 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Ron Weasly
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:14.158 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:14.242 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:09 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testWithdrawWithInsufficientBalance" classname="tests.customer.WithdrawTest" time="4.32">
+    <system-out><![CDATA[00:38:21.634 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+00:38:21.971 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:38:22.045 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+00:38:22.047 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+00:38:22.047 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+00:38:22.050 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:22.227 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+00:38:22.305 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:22.361 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:23.077 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:23.107 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:23.331 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+00:38:24.043 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:24.173 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+00:38:24.480 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Insufficient balance result: Transaction Failed. You can not withdraw amount more than the balance.
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:22 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:22 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testWithdrawZeroAmount" classname="tests.customer.WithdrawTest" time="5.02">
+    <system-out><![CDATA[00:38:46.502 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+00:38:46.815 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+00:38:46.817 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+00:38:46.817 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:46 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:46 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 28, 2026 12:38:47 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:47 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testBackButtonReturnsToDashboard" classname="tests.customer.TransactionTest" time="3.247">
+    <system-out><![CDATA[00:38:39.377 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositInvalidAmount
+00:38:39.565 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+00:38:39.567 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+00:38:39.567 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+00:38:40.231 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:40.249 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:42.015 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:42.432 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:42.497 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+00:38:42.504 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Test scenario: standard deposit
+00:38:42.511 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+00:38:43.108 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:44.011 [TestNG-test-Customer Tests-1] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:38:44.233 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:38:44.283 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:38:44.437 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:44.657 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:44.730 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:44.857 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Transactions
+00:38:45.343 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+00:38:45.555 [TestNG-test-Customer Tests-1] INFO  pages.customer.TransactionsPage - Clicking Back
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testTransactionHistoryIsReadOnly" classname="tests.customer.TransactionTest" time="5.739">
+    <system-out><![CDATA[00:38:54.487 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+00:38:54.599 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+00:38:54.684 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+00:38:54.687 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+00:38:54.687 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:38:54.887 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:38:55.035 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Transactions
+]]></system-out>
+    <system-err><![CDATA[May 28, 2026 12:38:55 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 148
+May 28, 2026 12:38:55 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 148.0.7778.179. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.20.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="testTransactionHistoryPageIsAccessible" classname="tests.customer.TransactionTest" time="5.46">
+    <system-out><![CDATA[00:39:02.251 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+00:39:02.535 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+00:39:02.778 [TestNG-test-Customer Tests-1] INFO  pages.customer.DepositPage - Clicking Deposit submit
+00:39:02.965 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+00:39:03.144 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+Option: '---Your Name---'
+Option: 'Hermoine Granger'
+Option: 'Harry Potter'
+Option: 'Ron Weasly'
+Option: 'Albus Dumbledore'
+Option: 'Neville Longbottom'
+00:39:03.506 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+00:39:03.727 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Transactions
+]]></system-out>
+  </testcase>
+</testsuite>

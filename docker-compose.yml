@@ -1,0 +1,62 @@
+version: "3.8"
+
+# ============================================================
+# XYZ Bank Test Automation — Docker Compose
+# ============================================================
+# Option A (default): run tests in a single standalone Chrome container.
+# Option B: uncomment the grid services to run against Selenium Grid.
+#
+# Usage:
+#   docker-compose up --build           # standalone mode
+#   docker-compose up --build --scale   # (not needed for standalone)
+# ============================================================
+
+services:
+
+  # ── Option A: Standalone (all-in-one) ───────────────────────────────────────
+  xyz-tests-standalone:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: xyz-tests
+    environment:
+      - headless=true
+      - browser=chrome
+    volumes:
+      # Mount target/ so reports/screenshots are accessible on the host
+      - ./target:/app/target
+    shm_size: "2gb"          # prevents Chrome from crashing in containers
+
+  # ── Option B: Selenium Grid ──────────────────────────────────────────────────
+  # Uncomment to use a Grid topology instead of the standalone image.
+
+  # selenium-hub:
+  #   image: selenium/hub:4.20.0
+  #   container_name: selenium-hub
+  #   ports:
+  #     - "4444:4444"
+
+  # chrome-node:
+  #   image: selenium/node-chrome:4.20.0
+  #   container_name: chrome-node
+  #   shm_size: "2gb"
+  #   environment:
+  #     - SE_EVENT_BUS_HOST=selenium-hub
+  #     - SE_EVENT_BUS_PUBLISH_PORT=4442
+  #     - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
+  #   depends_on:
+  #     - selenium-hub
+
+  # xyz-tests-grid:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   container_name: xyz-tests-grid
+  #   environment:
+  #     - headless=true
+  #     - browser=chrome
+  #     - SELENIUM_REMOTE_URL=http://selenium-hub:4444/wd/hub
+  #   depends_on:
+  #     - chrome-node
+  #   volumes:
+  #     - ./target:/app/target

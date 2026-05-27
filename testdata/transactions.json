@@ -1,0 +1,28 @@
+{
+  "deposits": {
+    "valid": [
+      {"amount": 1000, "description": "standard deposit"},
+      {"amount": 500,  "description": "small deposit"},
+      {"amount": 9999, "description": "large deposit"}
+    ],
+    "invalid": [
+      {"amount": -100,  "description": "negative amount"},
+      {"amount": 0,     "description": "zero amount"}
+    ]
+  },
+  "withdrawals": {
+    "valid": [
+      {"depositFirst": 1000, "withdrawAmount": 500,  "expectedBalance": 500,  "description": "partial withdrawal"},
+      {"depositFirst": 2000, "withdrawAmount": 2000, "expectedBalance": 0,    "description": "full balance withdrawal"}
+    ],
+    "insufficient": [
+      {"depositFirst": 500,  "withdrawAmount": 1000, "description": "withdraw more than balance"},
+      {"depositFirst": 0,    "withdrawAmount": 100,  "description": "withdraw from zero balance"}
+    ]
+  },
+  "transactionVerification": {
+    "depositAmount": 750,
+    "withdrawAmount": 250,
+    "expectedFinalBalance": 500
+  }
+}

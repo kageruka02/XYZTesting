@@ -1,0 +1,8 @@
+base\BaseTest.class
+tests\manager\CreateAccountTest.class
+tests\customer\DepositTest.class
+tests\customer\CustomerLoginTest.class
+tests\manager\AddCustomerTest.class
+tests\manager\DeleteCustomerTest.class
+tests\customer\TransactionTest.class
+tests\customer\WithdrawTest.class

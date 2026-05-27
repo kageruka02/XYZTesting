@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="41" passed="41" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-28T00:36:23 CAT" name="XYZ Bank Test Suite" finished-at="2026-05-28T00:39:04 CAT" duration-ms="161029">
+    <groups>
+    </groups>
+    <test started-at="2026-05-28T00:36:23 CAT" name="Bank Manager Tests" finished-at="2026-05-28T00:37:44 CAT" duration-ms="80544">
+      <class name="tests.manager.AddCustomerTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:23 CAT" name="setUp" finished-at="2026-05-28T00:36:31 CAT" duration-ms="7364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerFormIsVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerFormIsVisible()[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:31 CAT" name="testAddCustomerFormIsVisible" description="Add customer form should be visible after navigating to Add Customer tab" finished-at="2026-05-28T00:36:34 CAT" duration-ms="2642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerFormIsVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:34 CAT" name="tearDown" finished-at="2026-05-28T00:36:34 CAT" duration-ms="440" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerFormIsVisible status=SUCCESS method=AddCustomerTest.testAddCustomerFormIsVisible()[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:36 CAT" name="setUp" finished-at="2026-05-28T00:36:39 CAT" duration-ms="2928" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:39 CAT" name="testAddCustomerWithInvalidData" description="Attempt to add a customer with invalid input; form should reject or show validation" data-provider="invalidCustomerData" finished-at="2026-05-28T00:36:42 CAT" duration-ms="3054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E859AA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[numbers in first name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:42 CAT" name="tearDown" finished-at="2026-05-28T00:36:42 CAT" duration-ms="306" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithInvalidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:42 CAT" name="setUp" finished-at="2026-05-28T00:36:45 CAT" duration-ms="2684" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:45 CAT" name="testAddCustomerWithInvalidData" description="Attempt to add a customer with invalid input; form should reject or show validation" data-provider="invalidCustomerData" finished-at="2026-05-28T00:36:49 CAT" duration-ms="4013" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry@#]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E859AA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[special characters in first name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:49 CAT" name="tearDown" finished-at="2026-05-28T00:36:49 CAT" duration-ms="244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithInvalidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:49 CAT" name="setUp" finished-at="2026-05-28T00:36:53 CAT" duration-ms="3741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:53 CAT" name="testAddCustomerWithInvalidData" description="Attempt to add a customer with invalid input; form should reject or show validation" data-provider="invalidCustomerData" finished-at="2026-05-28T00:36:57 CAT" duration-ms="4504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E859AA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty first name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:57 CAT" name="tearDown" finished-at="2026-05-28T00:36:58 CAT" duration-ms="606" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithInvalidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:36:58 CAT" name="setUp" finished-at="2026-05-28T00:37:01 CAT" duration-ms="2972" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:01 CAT" name="testAddCustomerWithInvalidData" description="Attempt to add a customer with invalid input; form should reject or show validation" data-provider="invalidCustomerData" finished-at="2026-05-28T00:37:05 CAT" duration-ms="4024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E859AA]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty last name]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:05 CAT" name="tearDown" finished-at="2026-05-28T00:37:05 CAT" duration-ms="356" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithInvalidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:05 CAT" name="setUp" finished-at="2026-05-28T00:37:09 CAT" duration-ms="3905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:09 CAT" name="testAddCustomerWithInvalidData" description="Attempt to add a customer with invalid input; form should reject or show validation" data-provider="invalidCustomerData" finished-at="2026-05-28T00:37:13 CAT" duration-ms="3585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[empty post code]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithInvalidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:13 CAT" name="tearDown" finished-at="2026-05-28T00:37:13 CAT" duration-ms="252" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithInvalidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithInvalidData(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:13 CAT" name="setUp" finished-at="2026-05-28T00:37:17 CAT" duration-ms="3898" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:17 CAT" name="testAddCustomerWithValidData" description="Add a new customer with valid first name, last name, and post code" data-provider="validCustomerData" finished-at="2026-05-28T00:37:20 CAT" duration-ms="3192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Potter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[E859AA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:20 CAT" name="tearDown" finished-at="2026-05-28T00:37:21 CAT" duration-ms="564" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithValidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:21 CAT" name="setUp" finished-at="2026-05-28T00:37:25 CAT" duration-ms="4451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:25 CAT" name="testAddCustomerWithValidData" description="Add a new customer with valid first name, last name, and post code" data-provider="validCustomerData" finished-at="2026-05-28T00:37:29 CAT" duration-ms="3788" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dumbledore]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[D118OE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:29 CAT" name="tearDown" finished-at="2026-05-28T00:37:29 CAT" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithValidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:29 CAT" name="setUp" finished-at="2026-05-28T00:37:33 CAT" duration-ms="3570" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:33 CAT" name="testAddCustomerWithValidData" description="Add a new customer with valid first name, last name, and post code" data-provider="validCustomerData" finished-at="2026-05-28T00:37:36 CAT" duration-ms="3182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hermione]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Granger]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[HP11AA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerWithValidData -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:36 CAT" name="tearDown" finished-at="2026-05-28T00:37:36 CAT" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddCustomerWithValidData status=SUCCESS method=AddCustomerTest.testAddCustomerWithValidData(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:36 CAT" name="setUp" finished-at="2026-05-28T00:37:40 CAT" duration-ms="3890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.AddCustomerTest.testSubmitButtonIsEnabled()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubmitButtonIsEnabled()[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:40 CAT" name="testSubmitButtonIsEnabled" description="Submit button should be enabled when the form is displayed" finished-at="2026-05-28T00:37:43 CAT" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubmitButtonIsEnabled -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.AddCustomerTest@625a4ff]" started-at="2026-05-28T00:37:43 CAT" name="tearDown" finished-at="2026-05-28T00:37:44 CAT" duration-ms="551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSubmitButtonIsEnabled status=SUCCESS method=AddCustomerTest.testSubmitButtonIsEnabled()[pri:0, instance:tests.manager.AddCustomerTest@625a4ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.manager.AddCustomerTest -->
+      <class name="tests.manager.CreateAccountTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:23 CAT" name="setUp" finished-at="2026-05-28T00:36:31 CAT" duration-ms="7364" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.CreateAccountTest.testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:31 CAT" name="testCreateAccountForExistingCustomer" description="Create a bank account for an existing customer with each supported currency" data-provider="accountData" finished-at="2026-05-28T00:36:35 CAT" duration-ms="3779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dollar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountForExistingCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:35 CAT" name="tearDown" finished-at="2026-05-28T00:36:35 CAT" duration-ms="579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateAccountForExistingCustomer status=SUCCESS method=CreateAccountTest.testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:35 CAT" name="setUp" finished-at="2026-05-28T00:36:38 CAT" duration-ms="3104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.CreateAccountTest.testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:38 CAT" name="testCreateAccountForExistingCustomer" description="Create a bank account for an existing customer with each supported currency" data-provider="accountData" finished-at="2026-05-28T00:36:42 CAT" duration-ms="3236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hermoine Granger]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pound]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountForExistingCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:42 CAT" name="tearDown" finished-at="2026-05-28T00:36:42 CAT" duration-ms="536" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateAccountForExistingCustomer status=SUCCESS method=CreateAccountTest.testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:42 CAT" name="setUp" finished-at="2026-05-28T00:36:45 CAT" duration-ms="3044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.CreateAccountTest.testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:45 CAT" name="testCreateAccountForExistingCustomer" description="Create a bank account for an existing customer with each supported currency" data-provider="accountData" finished-at="2026-05-28T00:36:49 CAT" duration-ms="3420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ron Weasly]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rupee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAccountForExistingCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:49 CAT" name="tearDown" finished-at="2026-05-28T00:36:49 CAT" duration-ms="280" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCreateAccountForExistingCustomer status=SUCCESS method=CreateAccountTest.testCreateAccountForExistingCustomer(java.lang.String,java.lang.String)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:49 CAT" name="setUp" finished-at="2026-05-28T00:36:53 CAT" duration-ms="3853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.CreateAccountTest.testCustomerAndCurrencyDropdownsWork()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCustomerAndCurrencyDropdownsWork()[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:53 CAT" name="testCustomerAndCurrencyDropdownsWork" description="Verify customer and currency dropdowns are selectable" finished-at="2026-05-28T00:36:57 CAT" duration-ms="3636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerAndCurrencyDropdownsWork -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:57 CAT" name="tearDown" finished-at="2026-05-28T00:36:57 CAT" duration-ms="470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomerAndCurrencyDropdownsWork status=SUCCESS method=CreateAccountTest.testCustomerAndCurrencyDropdownsWork()[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:36:57 CAT" name="setUp" finished-at="2026-05-28T00:37:00 CAT" duration-ms="2926" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.CreateAccountTest.testOpenAccountFormIsVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testOpenAccountFormIsVisible()[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:37:00 CAT" name="testOpenAccountFormIsVisible" description="Open Account form should be visible after clicking the Open Account tab" finished-at="2026-05-28T00:37:03 CAT" duration-ms="2806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAccountFormIsVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63]" started-at="2026-05-28T00:37:03 CAT" name="tearDown" finished-at="2026-05-28T00:37:03 CAT" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOpenAccountFormIsVisible status=SUCCESS method=CreateAccountTest.testOpenAccountFormIsVisible()[pri:0, instance:tests.manager.CreateAccountTest@78a0ff63] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.manager.CreateAccountTest -->
+      <class name="tests.manager.DeleteCustomerTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:23 CAT" name="setUp" finished-at="2026-05-28T00:36:31 CAT" duration-ms="7287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.DeleteCustomerTest.testCustomersListTableIsVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCustomersListTableIsVisible()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:31 CAT" name="testCustomersListTableIsVisible" description="Customers list table is visible on the Customers tab" finished-at="2026-05-28T00:36:34 CAT" duration-ms="2869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomersListTableIsVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:34 CAT" name="tearDown" finished-at="2026-05-28T00:36:34 CAT" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomersListTableIsVisible status=SUCCESS method=DeleteCustomerTest.testCustomersListTableIsVisible()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:34 CAT" name="setUp" finished-at="2026-05-28T00:36:39 CAT" duration-ms="4553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.DeleteCustomerTest.testDeleteCustomerRemovedFromList()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDeleteCustomerRemovedFromList()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:39 CAT" name="testDeleteCustomerRemovedFromList" description="Add a customer, then delete them and verify removal from the list" finished-at="2026-05-28T00:36:45 CAT" duration-ms="5690" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomerRemovedFromList -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:45 CAT" name="tearDown" finished-at="2026-05-28T00:36:45 CAT" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDeleteCustomerRemovedFromList status=SUCCESS method=DeleteCustomerTest.testDeleteCustomerRemovedFromList()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:45 CAT" name="setUp" finished-at="2026-05-28T00:36:47 CAT" duration-ms="2598" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.DeleteCustomerTest.testPreSeededCustomersExist()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPreSeededCustomersExist()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:47 CAT" name="testPreSeededCustomersExist" description="Customer list shows at least one pre-seeded customer" finished-at="2026-05-28T00:36:51 CAT" duration-ms="3700" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPreSeededCustomersExist -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:51 CAT" name="tearDown" finished-at="2026-05-28T00:36:51 CAT" duration-ms="305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPreSeededCustomersExist status=SUCCESS method=DeleteCustomerTest.testPreSeededCustomersExist()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:51 CAT" name="setUp" finished-at="2026-05-28T00:36:54 CAT" duration-ms="2876" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.manager.DeleteCustomerTest.testSearchForDeletedCustomerReturnsEmpty()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearchForDeletedCustomerReturnsEmpty()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:54 CAT" name="testSearchForDeletedCustomerReturnsEmpty" description="Search for a non-existent customer returns no results" finished-at="2026-05-28T00:36:57 CAT" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchForDeletedCustomerReturnsEmpty -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50]" started-at="2026-05-28T00:36:57 CAT" name="tearDown" finished-at="2026-05-28T00:36:58 CAT" duration-ms="1064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchForDeletedCustomerReturnsEmpty status=SUCCESS method=DeleteCustomerTest.testSearchForDeletedCustomerReturnsEmpty()[pri:0, instance:tests.manager.DeleteCustomerTest@7c601d50] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.manager.DeleteCustomerTest -->
+    </test> <!-- Bank Manager Tests -->
+    <test started-at="2026-05-28T00:37:44 CAT" name="Customer Tests" finished-at="2026-05-28T00:39:04 CAT" duration-ms="80424">
+      <class name="tests.customer.WithdrawTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:37:44 CAT" name="setUp" finished-at="2026-05-28T00:37:47 CAT" duration-ms="3557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.WithdrawTest.testBalanceDecreasesAfterWithdrawal()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBalanceDecreasesAfterWithdrawal()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:37:47 CAT" name="testBalanceDecreasesAfterWithdrawal" description="Balance decreases by the withdrawn amount after a successful withdrawal" finished-at="2026-05-28T00:37:55 CAT" duration-ms="8034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBalanceDecreasesAfterWithdrawal -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:37:55 CAT" name="tearDown" finished-at="2026-05-28T00:37:56 CAT" duration-ms="209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBalanceDecreasesAfterWithdrawal status=SUCCESS method=WithdrawTest.testBalanceDecreasesAfterWithdrawal()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:37:56 CAT" name="setUp" finished-at="2026-05-28T00:37:59 CAT" duration-ms="2940" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.WithdrawTest.testWithdrawFullBalance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWithdrawFullBalance()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:37:59 CAT" name="testWithdrawFullBalance" description="Withdraw the full account balance" finished-at="2026-05-28T00:38:05 CAT" duration-ms="6020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawFullBalance -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:05 CAT" name="tearDown" finished-at="2026-05-28T00:38:05 CAT" duration-ms="495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithdrawFullBalance status=SUCCESS method=WithdrawTest.testWithdrawFullBalance()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:05 CAT" name="setUp" finished-at="2026-05-28T00:38:08 CAT" duration-ms="3028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.WithdrawTest.testWithdrawValidAmount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWithdrawValidAmount()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:08 CAT" name="testWithdrawValidAmount" description="Withdraw a partial amount from a funded account" finished-at="2026-05-28T00:38:14 CAT" duration-ms="5740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawValidAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:14 CAT" name="tearDown" finished-at="2026-05-28T00:38:14 CAT" duration-ms="185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithdrawValidAmount status=SUCCESS method=WithdrawTest.testWithdrawValidAmount()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:14 CAT" name="setUp" finished-at="2026-05-28T00:38:17 CAT" duration-ms="2953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.WithdrawTest.testWithdrawWithInsufficientBalance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWithdrawWithInsufficientBalance()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:17 CAT" name="testWithdrawWithInsufficientBalance" description="Withdraw more than the available balance — transaction should fail" finished-at="2026-05-28T00:38:24 CAT" duration-ms="6917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawWithInsufficientBalance -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:24 CAT" name="tearDown" finished-at="2026-05-28T00:38:25 CAT" duration-ms="599" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithdrawWithInsufficientBalance status=SUCCESS method=WithdrawTest.testWithdrawWithInsufficientBalance()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:25 CAT" name="setUp" finished-at="2026-05-28T00:38:27 CAT" duration-ms="2910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.WithdrawTest.testWithdrawZeroAmount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testWithdrawZeroAmount()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:27 CAT" name="testWithdrawZeroAmount" description="Withdraw zero amount — should not be treated as a successful transaction" finished-at="2026-05-28T00:38:47 CAT" duration-ms="19525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWithdrawZeroAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.WithdrawTest@210d2a6c]" started-at="2026-05-28T00:38:47 CAT" name="tearDown" finished-at="2026-05-28T00:38:47 CAT" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWithdrawZeroAmount status=SUCCESS method=WithdrawTest.testWithdrawZeroAmount()[pri:0, instance:tests.customer.WithdrawTest@210d2a6c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.customer.WithdrawTest -->
+      <class name="tests.customer.DepositTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:37:44 CAT" name="setUp" finished-at="2026-05-28T00:37:48 CAT" duration-ms="3957" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.DepositTest.testBalanceIncreasesAfterDeposit()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBalanceIncreasesAfterDeposit()[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:37:48 CAT" name="testBalanceIncreasesAfterDeposit" description="Balance increases by the deposited amount" finished-at="2026-05-28T00:37:54 CAT" duration-ms="5727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBalanceIncreasesAfterDeposit -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:37:54 CAT" name="tearDown" finished-at="2026-05-28T00:37:54 CAT" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBalanceIncreasesAfterDeposit status=SUCCESS method=DepositTest.testBalanceIncreasesAfterDeposit()[pri:0, instance:tests.customer.DepositTest@6949e948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:37:54 CAT" name="setUp" finished-at="2026-05-28T00:37:57 CAT" duration-ms="2993" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.DepositTest.testDepositInvalidAmount(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDepositInvalidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:37:57 CAT" name="testDepositInvalidAmount" description="Attempt to deposit an invalid amount (negative or zero); no success message should appear" data-provider="invalidDeposits" finished-at="2026-05-28T00:38:16 CAT" duration-ms="19472" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-100]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[negative amount]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositInvalidAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:16 CAT" name="tearDown" finished-at="2026-05-28T00:38:17 CAT" duration-ms="258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDepositInvalidAmount status=SUCCESS method=DepositTest.testDepositInvalidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:17 CAT" name="setUp" finished-at="2026-05-28T00:38:20 CAT" duration-ms="2973" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.DepositTest.testDepositInvalidAmount(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDepositInvalidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:20 CAT" name="testDepositInvalidAmount" description="Attempt to deposit an invalid amount (negative or zero); no success message should appear" data-provider="invalidDeposits" finished-at="2026-05-28T00:38:39 CAT" duration-ms="19205" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[zero amount]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositInvalidAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:39 CAT" name="tearDown" finished-at="2026-05-28T00:38:39 CAT" duration-ms="194" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDepositInvalidAmount status=SUCCESS method=DepositTest.testDepositInvalidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:39 CAT" name="setUp" finished-at="2026-05-28T00:38:42 CAT" duration-ms="2930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.DepositTest.testDepositValidAmount(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDepositValidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:42 CAT" name="testDepositValidAmount" description="Deposit a valid amount and verify balance increases and success message appears" data-provider="validDeposits" finished-at="2026-05-28T00:38:46 CAT" duration-ms="3997" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[standard deposit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositValidAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:46 CAT" name="tearDown" finished-at="2026-05-28T00:38:46 CAT" duration-ms="313" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDepositValidAmount status=SUCCESS method=DepositTest.testDepositValidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:46 CAT" name="setUp" finished-at="2026-05-28T00:38:49 CAT" duration-ms="3119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.DepositTest.testDepositValidAmount(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDepositValidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:49 CAT" name="testDepositValidAmount" description="Deposit a valid amount and verify balance increases and success message appears" data-provider="validDeposits" finished-at="2026-05-28T00:38:54 CAT" duration-ms="4546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[500]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[small deposit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositValidAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:54 CAT" name="tearDown" finished-at="2026-05-28T00:38:54 CAT" duration-ms="197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDepositValidAmount status=SUCCESS method=DepositTest.testDepositValidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:54 CAT" name="setUp" finished-at="2026-05-28T00:38:57 CAT" duration-ms="3007" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.DepositTest.testDepositValidAmount(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testDepositValidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:38:57 CAT" name="testDepositValidAmount" description="Deposit a valid amount and verify balance increases and success message appears" data-provider="validDeposits" finished-at="2026-05-28T00:39:02 CAT" duration-ms="4554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9999]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[large deposit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDepositValidAmount -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.DepositTest@6949e948]" started-at="2026-05-28T00:39:02 CAT" name="tearDown" finished-at="2026-05-28T00:39:02 CAT" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDepositValidAmount status=SUCCESS method=DepositTest.testDepositValidAmount(java.lang.String,java.lang.String)[pri:0, instance:tests.customer.DepositTest@6949e948] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.customer.DepositTest -->
+      <class name="tests.customer.TransactionTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:36 CAT" name="setUp" finished-at="2026-05-28T00:38:40 CAT" duration-ms="3539" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.TransactionTest.testBackButtonReturnsToDashboard()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testBackButtonReturnsToDashboard()[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:40 CAT" name="testBackButtonReturnsToDashboard" description="Back button on the Transactions page returns to the customer dashboard" finished-at="2026-05-28T00:38:45 CAT" duration-ms="5509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBackButtonReturnsToDashboard -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:45 CAT" name="tearDown" finished-at="2026-05-28T00:38:45 CAT" duration-ms="220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testBackButtonReturnsToDashboard status=SUCCESS method=TransactionTest.testBackButtonReturnsToDashboard()[pri:0, instance:tests.customer.TransactionTest@3bec5821] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:45 CAT" name="setUp" finished-at="2026-05-28T00:38:50 CAT" duration-ms="4048" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.TransactionTest.testTransactionHistoryIsReadOnly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTransactionHistoryIsReadOnly()[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:50 CAT" name="testTransactionHistoryIsReadOnly" description="Transaction history table is read-only — no editable input fields present" finished-at="2026-05-28T00:38:55 CAT" duration-ms="5736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionHistoryIsReadOnly -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:55 CAT" name="tearDown" finished-at="2026-05-28T00:38:56 CAT" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionHistoryIsReadOnly status=SUCCESS method=TransactionTest.testTransactionHistoryIsReadOnly()[pri:0, instance:tests.customer.TransactionTest@3bec5821] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:56 CAT" name="setUp" finished-at="2026-05-28T00:38:59 CAT" duration-ms="2994" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.TransactionTest.testTransactionHistoryPageIsAccessible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTransactionHistoryPageIsAccessible()[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:38:59 CAT" name="testTransactionHistoryPageIsAccessible" description="Transaction history page is accessible from the customer dashboard" finished-at="2026-05-28T00:39:04 CAT" duration-ms="5450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionHistoryPageIsAccessible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.TransactionTest@3bec5821]" started-at="2026-05-28T00:39:04 CAT" name="tearDown" finished-at="2026-05-28T00:39:04 CAT" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testTransactionHistoryPageIsAccessible status=SUCCESS method=TransactionTest.testTransactionHistoryPageIsAccessible()[pri:0, instance:tests.customer.TransactionTest@3bec5821] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.customer.TransactionTest -->
+      <class name="tests.customer.CustomerLoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:44 CAT" name="setUp" finished-at="2026-05-28T00:37:47 CAT" duration-ms="3324" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testCustomerDropdownVisible()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCustomerDropdownVisible()[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:47 CAT" name="testCustomerDropdownVisible" description="Customer dropdown is visible on the login page" finished-at="2026-05-28T00:37:49 CAT" duration-ms="1908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerDropdownVisible -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:49 CAT" name="tearDown" finished-at="2026-05-28T00:37:49 CAT" duration-ms="236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCustomerDropdownVisible status=SUCCESS method=CustomerLoginTest.testCustomerDropdownVisible()[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:49 CAT" name="setUp" finished-at="2026-05-28T00:37:53 CAT" duration-ms="3977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLoginButtonDisabledBeforeSelection()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginButtonDisabledBeforeSelection()[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:53 CAT" name="testLoginButtonDisabledBeforeSelection" description="Login button should be disabled before a customer is selected" finished-at="2026-05-28T00:37:55 CAT" duration-ms="1934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonDisabledBeforeSelection -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:55 CAT" name="tearDown" finished-at="2026-05-28T00:37:56 CAT" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginButtonDisabledBeforeSelection status=SUCCESS method=CustomerLoginTest.testLoginButtonDisabledBeforeSelection()[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:56 CAT" name="setUp" finished-at="2026-05-28T00:37:58 CAT" duration-ms="2823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:37:58 CAT" name="testLoginWithValidCustomer" description="Login with a valid customer name and verify the dashboard loads" data-provider="validCustomers" finished-at="2026-05-28T00:38:01 CAT" duration-ms="2952" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:01 CAT" name="tearDown" finished-at="2026-05-28T00:38:02 CAT" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCustomer status=SUCCESS method=CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:02 CAT" name="setUp" finished-at="2026-05-28T00:38:05 CAT" duration-ms="3720" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:05 CAT" name="testLoginWithValidCustomer" description="Login with a valid customer name and verify the dashboard loads" data-provider="validCustomers" finished-at="2026-05-28T00:38:08 CAT" duration-ms="3011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hermoine Granger]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:08 CAT" name="tearDown" finished-at="2026-05-28T00:38:09 CAT" duration-ms="442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCustomer status=SUCCESS method=CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:09 CAT" name="setUp" finished-at="2026-05-28T00:38:11 CAT" duration-ms="2746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:11 CAT" name="testLoginWithValidCustomer" description="Login with a valid customer name and verify the dashboard loads" data-provider="validCustomers" finished-at="2026-05-28T00:38:14 CAT" duration-ms="2935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ron Weasly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:14 CAT" name="tearDown" finished-at="2026-05-28T00:38:15 CAT" duration-ms="293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCustomer status=SUCCESS method=CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:15 CAT" name="setUp" finished-at="2026-05-28T00:38:18 CAT" duration-ms="2878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:18 CAT" name="testLoginWithValidCustomer" description="Login with a valid customer name and verify the dashboard loads" data-provider="validCustomers" finished-at="2026-05-28T00:38:21 CAT" duration-ms="3540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Albus Dumbledore]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:21 CAT" name="tearDown" finished-at="2026-05-28T00:38:22 CAT" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCustomer status=SUCCESS method=CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:22 CAT" name="setUp" finished-at="2026-05-28T00:38:25 CAT" duration-ms="3731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:25 CAT" name="testLoginWithValidCustomer" description="Login with a valid customer name and verify the dashboard loads" data-provider="validCustomers" finished-at="2026-05-28T00:38:29 CAT" duration-ms="3696" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neville Longbottom]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCustomer -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:29 CAT" name="tearDown" finished-at="2026-05-28T00:38:30 CAT" duration-ms="554" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCustomer status=SUCCESS method=CustomerLoginTest.testLoginWithValidCustomer(java.lang.String)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:30 CAT" name="setUp" finished-at="2026-05-28T00:38:33 CAT" duration-ms="3055" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.customer.CustomerLoginTest.testLogoutReturnsToHomePage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogoutReturnsToHomePage()[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:33 CAT" name="testLogoutReturnsToHomePage" description="Logout from dashboard returns to home page" finished-at="2026-05-28T00:38:36 CAT" duration-ms="3116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutReturnsToHomePage -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21]" started-at="2026-05-28T00:38:36 CAT" name="tearDown" finished-at="2026-05-28T00:38:36 CAT" duration-ms="483" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogoutReturnsToHomePage status=SUCCESS method=CustomerLoginTest.testLogoutReturnsToHomePage()[pri:0, instance:tests.customer.CustomerLoginTest@7f608e21] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.customer.CustomerLoginTest -->
+    </test> <!-- Customer Tests -->
+  </suite> <!-- XYZ Bank Test Suite -->
+</testng-results>

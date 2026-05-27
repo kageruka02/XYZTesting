@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  Bank Manager Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Bank Manager Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 28 00:36:23 CAT 2026</td>
+</tr>
+<tr><td>Total time:</td><td>80 seconds (80544 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.manager.DeleteCustomerTest.testDeleteCustomerRemovedFromList()'><b>testDeleteCustomerRemovedFromList</b><br>Test class: tests.manager.DeleteCustomerTest<br>Test method: Add a customer, then delete them and verify removal from the list</td>
+<td></td>
+<td>5</td>
+<td>tests.manager.DeleteCustomerTest@7c601d50</td></tr>
+<tr>
+<td title='tests.manager.CreateAccountTest.testOpenAccountFormIsVisible()'><b>testOpenAccountFormIsVisible</b><br>Test class: tests.manager.CreateAccountTest<br>Test method: Open Account form should be visible after clicking the Open Account tab</td>
+<td></td>
+<td>2</td>
+<td>tests.manager.CreateAccountTest@78a0ff63</td></tr>
+<tr>
+<td title='tests.manager.DeleteCustomerTest.testCustomersListTableIsVisible()'><b>testCustomersListTableIsVisible</b><br>Test class: tests.manager.DeleteCustomerTest<br>Test method: Customers list table is visible on the Customers tab</td>
+<td></td>
+<td>2</td>
+<td>tests.manager.DeleteCustomerTest@7c601d50</td></tr>
+<tr>
+<td title='tests.manager.CreateAccountTest.testCustomerAndCurrencyDropdownsWork()'><b>testCustomerAndCurrencyDropdownsWork</b><br>Test class: tests.manager.CreateAccountTest<br>Test method: Verify customer and currency dropdowns are selectable</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.CreateAccountTest@78a0ff63</td></tr>
+<tr>
+<td title='tests.manager.DeleteCustomerTest.testSearchForDeletedCustomerReturnsEmpty()'><b>testSearchForDeletedCustomerReturnsEmpty</b><br>Test class: tests.manager.DeleteCustomerTest<br>Test method: Search for a non-existent customer returns no results</td>
+<td></td>
+<td>2</td>
+<td>tests.manager.DeleteCustomerTest@7c601d50</td></tr>
+<tr>
+<td title='tests.manager.CreateAccountTest.testCreateAccountForExistingCustomer()'><b>testCreateAccountForExistingCustomer</b><br>Test class: tests.manager.CreateAccountTest<br>Test method: Create a bank account for an existing customer with each supported currency<br>Parameters: Hermoine Granger, Pound</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.CreateAccountTest@78a0ff63</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithInvalidData()'><b>testAddCustomerWithInvalidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Attempt to add a customer with invalid input; form should reject or show validation<br>Parameters: Harry123, Potter, E859AA, numbers in first name</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.CreateAccountTest.testCreateAccountForExistingCustomer()'><b>testCreateAccountForExistingCustomer</b><br>Test class: tests.manager.CreateAccountTest<br>Test method: Create a bank account for an existing customer with each supported currency<br>Parameters: Harry Potter, Dollar</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.CreateAccountTest@78a0ff63</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithInvalidData()'><b>testAddCustomerWithInvalidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Attempt to add a customer with invalid input; form should reject or show validation<br>Parameters: Harry@#, Potter, E859AA, special characters in first name</td>
+<td></td>
+<td>4</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testSubmitButtonIsEnabled()'><b>testSubmitButtonIsEnabled</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Submit button should be enabled when the form is displayed</td>
+<td></td>
+<td>2</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithInvalidData()'><b>testAddCustomerWithInvalidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Attempt to add a customer with invalid input; form should reject or show validation<br>Parameters: Harry, , E859AA, empty last name</td>
+<td></td>
+<td>4</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithValidData()'><b>testAddCustomerWithValidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Add a new customer with valid first name, last name, and post code<br>Parameters: Albus, Dumbledore, D118OE</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithInvalidData()'><b>testAddCustomerWithInvalidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Attempt to add a customer with invalid input; form should reject or show validation<br>Parameters: Harry, Potter, , empty post code</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.DeleteCustomerTest.testPreSeededCustomersExist()'><b>testPreSeededCustomersExist</b><br>Test class: tests.manager.DeleteCustomerTest<br>Test method: Customer list shows at least one pre-seeded customer</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.DeleteCustomerTest@7c601d50</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithInvalidData()'><b>testAddCustomerWithInvalidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Attempt to add a customer with invalid input; form should reject or show validation<br>Parameters: , Potter, E859AA, empty first name</td>
+<td></td>
+<td>4</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.CreateAccountTest.testCreateAccountForExistingCustomer()'><b>testCreateAccountForExistingCustomer</b><br>Test class: tests.manager.CreateAccountTest<br>Test method: Create a bank account for an existing customer with each supported currency<br>Parameters: Ron Weasly, Rupee</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.CreateAccountTest@78a0ff63</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithValidData()'><b>testAddCustomerWithValidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Add a new customer with valid first name, last name, and post code<br>Parameters: Harry, Potter, E859AA</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerFormIsVisible()'><b>testAddCustomerFormIsVisible</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Add customer form should be visible after navigating to Add Customer tab</td>
+<td></td>
+<td>2</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+<tr>
+<td title='tests.manager.AddCustomerTest.testAddCustomerWithValidData()'><b>testAddCustomerWithValidData</b><br>Test class: tests.manager.AddCustomerTest<br>Test method: Add a new customer with valid first name, last name, and post code<br>Parameters: Hermione, Granger, HP11AA</td>
+<td></td>
+<td>3</td>
+<td>tests.manager.AddCustomerTest@625a4ff</td></tr>
+</table><p>
+</body>
+</html>

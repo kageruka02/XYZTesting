@@ -1,0 +1,79 @@
+{
+  "validCustomers": [
+    {
+      "firstName": "Harry",
+      "lastName": "Potter",
+      "postCode": "E859AA",
+      "expectedFullName": "Harry Potter"
+    },
+    {
+      "firstName": "Albus",
+      "lastName": "Dumbledore",
+      "postCode": "D118OE",
+      "expectedFullName": "Albus Dumbledore"
+    },
+    {
+      "firstName": "Hermione",
+      "lastName": "Granger",
+      "postCode": "HP11AA",
+      "expectedFullName": "Hermione Granger"
+    }
+  ],
+  "invalidCustomers": [
+    {
+      "firstName": "Harry123",
+      "lastName": "Potter",
+      "postCode": "E859AA",
+      "scenario": "numbers in first name"
+    },
+    {
+      "firstName": "Harry@#",
+      "lastName": "Potter",
+      "postCode": "E859AA",
+      "scenario": "special characters in first name"
+    },
+    {
+      "firstName": "",
+      "lastName": "Potter",
+      "postCode": "E859AA",
+      "scenario": "empty first name"
+    },
+    {
+      "firstName": "Harry",
+      "lastName": "",
+      "postCode": "E859AA",
+      "scenario": "empty last name"
+    },
+    {
+      "firstName": "Harry",
+      "lastName": "Potter",
+      "postCode": "",
+      "scenario": "empty post code"
+    }
+  ],
+  "existingCustomers": [
+    {
+      "firstName": "Harry",
+      "lastName": "Potter",
+      "postCode": "E859AA"
+    },
+    {
+      "firstName": "Hermione",
+      "lastName": "Granger",
+      "postCode": "HP11AA"
+    },
+    {
+      "firstName": "Ron",
+      "lastName": "Weasley",
+      "postCode": "HR1 2TT"
+    }
+  ],
+  "currencies": ["Dollar", "Pound", "Rupee"],
+  "customerLoginNames": [
+    "Harry Potter",
+    "Hermione Granger",
+    "Ron Weasley",
+    "Albus Dumbledore",
+    "Neville Longbottom"
+  ]
+}

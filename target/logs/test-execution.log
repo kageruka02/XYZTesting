@@ -1,0 +1,579 @@
+2026-05-28 00:36:23.389 [main] INFO  utils.ConfigReader - Loaded configuration from config.properties
+2026-05-28 00:36:23.948 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testCustomersListTableIsVisible ===
+2026-05-28 00:36:23.948 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerFormIsVisible ===
+2026-05-28 00:36:23.948 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCreateAccountForExistingCustomer ===
+2026-05-28 00:36:23.950 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:23.950 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:23.950 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:31.188 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:31.265 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:31.266 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:31.807 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:31.807 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:31.807 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:33.251 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+2026-05-28 00:36:33.253 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:36:33.597 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+2026-05-28 00:36:34.114 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Harry Potter
+2026-05-28 00:36:34.224 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerFormIsVisible
+2026-05-28 00:36:34.386 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testCustomersListTableIsVisible
+2026-05-28 00:36:34.522 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Dollar
+2026-05-28 00:36:34.661 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:34.733 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:34.772 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testDeleteCustomerRemovedFromList ===
+2026-05-28 00:36:34.772 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:34.832 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Clicking Process button
+2026-05-28 00:36:35.259 [TestNG-test-Bank Manager Tests-2] INFO  utils.WaitUtils - Alert text: Account created successfully with account Number :1016
+2026-05-28 00:36:35.288 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Account created for 'Harry Potter' (Dollar). Alert: Account created successfully with account Number :1016
+2026-05-28 00:36:35.302 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCreateAccountForExistingCustomer
+2026-05-28 00:36:35.881 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:35.887 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCreateAccountForExistingCustomer ===
+2026-05-28 00:36:35.887 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:36.482 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+2026-05-28 00:36:36.485 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:38.987 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:39.006 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:39.317 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:39.335 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:39.409 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:39.415 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: numbers in first name
+2026-05-28 00:36:39.426 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:40.933 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+2026-05-28 00:36:41.161 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:36:41.224 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:36:41.725 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Hermoine Granger
+2026-05-28 00:36:41.942 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Pound
+2026-05-28 00:36:42.081 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Clicking Process button
+2026-05-28 00:36:42.216 [TestNG-test-Bank Manager Tests-2] INFO  utils.WaitUtils - Alert text: Account created successfully with account Number :1016
+2026-05-28 00:36:42.228 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Account created for 'Hermoine Granger' (Pound). Alert: Account created successfully with account Number :1016
+2026-05-28 00:36:42.232 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCreateAccountForExistingCustomer
+2026-05-28 00:36:42.328 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:36:42.349 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:36:42.458 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+2026-05-28 00:36:42.464 [TestNG-test-Bank Manager Tests-1] WARN  tests.manager.AddCustomerTest - Scenario 'numbers in first name' produced alert: Customer added successfully with customer id :6
+2026-05-28 00:36:42.478 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+2026-05-28 00:36:42.559 [TestNG-test-Bank Manager Tests-3] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+2026-05-28 00:36:42.568 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+2026-05-28 00:36:42.765 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:42.767 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCreateAccountForExistingCustomer ===
+2026-05-28 00:36:42.767 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:42.781 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:42.786 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+2026-05-28 00:36:42.786 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:44.011 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.CustomersPage - Searching for customer: DeleteMe 
+2026-05-28 00:36:44.562 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.CustomersPage - Deleted customer: DeleteMe 
+2026-05-28 00:36:45.016 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testDeleteCustomerRemovedFromList
+2026-05-28 00:36:45.227 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:45.232 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testPreSeededCustomersExist ===
+2026-05-28 00:36:45.232 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:45.464 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:45.485 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: special characters in first name
+2026-05-28 00:36:45.809 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:45.968 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:45.999 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:47.741 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+2026-05-28 00:36:47.787 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:36:47.828 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:48.240 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:48.575 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Ron Weasly
+2026-05-28 00:36:48.869 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Rupee
+2026-05-28 00:36:49.025 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Clicking Process button
+2026-05-28 00:36:49.224 [TestNG-test-Bank Manager Tests-2] INFO  utils.WaitUtils - Alert text: Account created successfully with account Number :1016
+2026-05-28 00:36:49.234 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Account created for 'Ron Weasly' (Rupee). Alert: Account created successfully with account Number :1016
+2026-05-28 00:36:49.239 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCreateAccountForExistingCustomer
+2026-05-28 00:36:49.271 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:36:49.478 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+2026-05-28 00:36:49.490 [TestNG-test-Bank Manager Tests-1] WARN  tests.manager.AddCustomerTest - Scenario 'special characters in first name' produced alert: Customer added successfully with customer id :6
+2026-05-28 00:36:49.497 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+2026-05-28 00:36:49.519 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:49.524 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testCustomerAndCurrencyDropdownsWork ===
+2026-05-28 00:36:49.524 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:49.739 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:49.742 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+2026-05-28 00:36:49.742 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:50.033 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+2026-05-28 00:36:51.544 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testPreSeededCustomersExist
+2026-05-28 00:36:51.848 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:51.848 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - === Starting test: testSearchForDeletedCustomerReturnsEmpty ===
+2026-05-28 00:36:51.848 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:53.377 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:53.398 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:53.483 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:53.518 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: empty first name
+2026-05-28 00:36:54.053 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:54.724 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:36:54.741 [TestNG-test-Bank Manager Tests-3] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:36:55.760 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+2026-05-28 00:36:56.411 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:36:56.489 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting customer: Harry Potter
+2026-05-28 00:36:56.500 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.ManagerPage - Navigating to Customers tab
+2026-05-28 00:36:56.744 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.OpenAccountPage - Selecting currency: Dollar
+2026-05-28 00:36:57.022 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testCustomerAndCurrencyDropdownsWork
+2026-05-28 00:36:57.281 [TestNG-test-Bank Manager Tests-3] INFO  pages.manager.CustomersPage - Searching for customer: DefinitelyNotExist_XYZ_9999
+2026-05-28 00:36:57.482 [TestNG-test-Bank Manager Tests-3] INFO  tests.manager.DeleteCustomerTest - TEST PASSED: testSearchForDeletedCustomerReturnsEmpty
+2026-05-28 00:36:57.492 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:57.495 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - === Starting test: testOpenAccountFormIsVisible ===
+2026-05-28 00:36:57.496 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-2
+2026-05-28 00:36:57.712 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:36:57.998 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+2026-05-28 00:36:58.544 [TestNG-test-Bank Manager Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-3
+2026-05-28 00:36:58.603 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:36:58.607 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+2026-05-28 00:36:58.607 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:00.421 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:00.432 [TestNG-test-Bank Manager Tests-2] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:01.579 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:01.588 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: empty last name
+2026-05-28 00:37:01.601 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:02.261 [TestNG-test-Bank Manager Tests-2] INFO  pages.manager.ManagerPage - Navigating to Open Account tab
+2026-05-28 00:37:03.235 [TestNG-test-Bank Manager Tests-2] INFO  tests.manager.CreateAccountTest - TEST PASSED: testOpenAccountFormIsVisible
+2026-05-28 00:37:03.448 [TestNG-test-Bank Manager Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-2
+2026-05-28 00:37:03.491 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:37:05.376 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:37:05.612 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+2026-05-28 00:37:05.966 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:05.977 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithInvalidData ===
+2026-05-28 00:37:05.977 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:09.882 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:09.889 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Testing invalid scenario: empty post code
+2026-05-28 00:37:09.898 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:12.227 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:37:13.275 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:37:13.475 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithInvalidData
+2026-05-28 00:37:13.727 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:13.735 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithValidData ===
+2026-05-28 00:37:13.735 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:17.633 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:17.649 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:19.553 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:37:20.702 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:37:20.822 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+2026-05-28 00:37:20.826 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Customer 'Harry  Potter' added. Alert: Customer added successfully with customer id :6
+2026-05-28 00:37:20.829 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithValidData
+2026-05-28 00:37:21.393 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:21.393 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithValidData ===
+2026-05-28 00:37:21.393 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:25.844 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:25.864 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:27.758 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:37:29.419 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:37:29.625 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+2026-05-28 00:37:29.632 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Customer 'Albus  Dumbledore' added. Alert: Customer added successfully with customer id :6
+2026-05-28 00:37:29.648 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithValidData
+2026-05-28 00:37:29.954 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:29.961 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testAddCustomerWithValidData ===
+2026-05-28 00:37:29.962 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:33.529 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:33.542 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:35.422 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:37:36.509 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.AddCustomerPage - Submitting Add Customer form
+2026-05-28 00:37:36.697 [TestNG-test-Bank Manager Tests-1] INFO  utils.WaitUtils - Alert text: Customer added successfully with customer id :6
+2026-05-28 00:37:36.707 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Customer 'Hermione  Granger' added. Alert: Customer added successfully with customer id :6
+2026-05-28 00:37:36.721 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testAddCustomerWithValidData
+2026-05-28 00:37:36.978 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:36.981 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - === Starting test: testSubmitButtonIsEnabled ===
+2026-05-28 00:37:36.981 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:40.871 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:40.879 [TestNG-test-Bank Manager Tests-1] INFO  pages.HomePage - Clicking Bank Manager Login
+2026-05-28 00:37:42.840 [TestNG-test-Bank Manager Tests-1] INFO  pages.manager.ManagerPage - Navigating to Add Customer tab
+2026-05-28 00:37:43.747 [TestNG-test-Bank Manager Tests-1] INFO  tests.manager.AddCustomerTest - TEST PASSED: testSubmitButtonIsEnabled
+2026-05-28 00:37:44.297 [TestNG-test-Bank Manager Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Bank Manager Tests-1
+2026-05-28 00:37:44.364 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testBalanceIncreasesAfterDeposit ===
+2026-05-28 00:37:44.364 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testCustomerDropdownVisible ===
+2026-05-28 00:37:44.364 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+2026-05-28 00:37:44.364 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:37:44.364 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testBalanceDecreasesAfterWithdrawal ===
+2026-05-28 00:37:44.364 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+2026-05-28 00:37:47.686 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:47.697 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:47.920 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:48.321 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:48.333 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:48.363 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:49.602 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testCustomerDropdownVisible
+2026-05-28 00:37:49.838 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:37:49.842 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginButtonDisabledBeforeSelection ===
+2026-05-28 00:37:49.842 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:37:50.357 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:37:50.357 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:37:51.282 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:37:51.291 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:37:52.034 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:37:52.077 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:37:53.096 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:37:53.098 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:37:53.315 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:53.317 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:53.497 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:37:53.503 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:37:53.819 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:53.837 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:53.885 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:37:53.893 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:37:54.056 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testBalanceIncreasesAfterDeposit
+2026-05-28 00:37:54.057 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+2026-05-28 00:37:54.444 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+2026-05-28 00:37:54.458 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositInvalidAmount ===
+2026-05-28 00:37:54.458 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+2026-05-28 00:37:54.839 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+2026-05-28 00:37:55.085 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:55.268 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:37:55.704 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:37:55.766 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginButtonDisabledBeforeSelection
+2026-05-28 00:37:55.978 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testBalanceDecreasesAfterWithdrawal
+2026-05-28 00:37:56.017 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:37:56.023 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 00:37:56.023 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:37:56.187 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+2026-05-28 00:37:56.187 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawFullBalance ===
+2026-05-28 00:37:56.191 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+2026-05-28 00:37:57.450 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:57.456 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Invalid deposit scenario: negative amount
+2026-05-28 00:37:57.472 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:58.845 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:58.861 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:59.127 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:37:59.137 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:37:59.360 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:37:59.876 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:00.627 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:00.647 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:00.905 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:01.051 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:01.182 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:01.525 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:01.797 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Harry Potter' logged in. Welcome: Harry Potter
+2026-05-28 00:38:01.802 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 00:38:01.865 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:02.047 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:02.051 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 00:38:02.051 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:02.856 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:03.017 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:03.197 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:03.661 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:03.946 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+2026-05-28 00:38:04.848 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+2026-05-28 00:38:05.155 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawFullBalance
+2026-05-28 00:38:05.648 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+2026-05-28 00:38:05.649 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawValidAmount ===
+2026-05-28 00:38:05.651 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+2026-05-28 00:38:05.771 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:05.786 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:07.634 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Hermoine Granger
+2026-05-28 00:38:08.001 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:08.677 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:08.687 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:08.787 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Hermoine Granger' logged in. Welcome: Hermoine Granger
+2026-05-28 00:38:08.789 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 00:38:09.231 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:09.233 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 00:38:09.233 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:10.394 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:10.687 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:11.421 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:11.977 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:11.988 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:12.350 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:12.574 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:12.769 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:13.220 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:13.419 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+2026-05-28 00:38:13.772 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Ron Weasly
+2026-05-28 00:38:14.158 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:14.242 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+2026-05-28 00:38:14.425 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawValidAmount
+2026-05-28 00:38:14.608 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+2026-05-28 00:38:14.610 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawWithInsufficientBalance ===
+2026-05-28 00:38:14.610 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+2026-05-28 00:38:14.912 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Ron Weasly' logged in. Welcome: Ron Weasly
+2026-05-28 00:38:14.916 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 00:38:15.207 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:15.210 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 00:38:15.210 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:16.929 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositInvalidAmount
+2026-05-28 00:38:17.187 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+2026-05-28 00:38:17.190 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositInvalidAmount ===
+2026-05-28 00:38:17.190 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+2026-05-28 00:38:17.559 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:17.572 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:18.088 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:18.102 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:19.545 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:20.060 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Albus Dumbledore
+2026-05-28 00:38:20.152 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:20.163 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:20.170 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Invalid deposit scenario: zero amount
+2026-05-28 00:38:20.186 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:20.790 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:21.154 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:21.628 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Albus Dumbledore' logged in. Welcome: Albus Dumbledore
+2026-05-28 00:38:21.634 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 00:38:21.971 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:22.045 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:22.047 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 00:38:22.047 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:22.050 [TestNG-test-Customer Tests-3] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:22.227 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:22.305 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:22.361 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:23.077 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:23.107 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:23.331 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+2026-05-28 00:38:24.043 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:24.173 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+2026-05-28 00:38:24.480 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Insufficient balance result: Transaction Failed. You can not withdraw amount more than the balance.
+2026-05-28 00:38:24.488 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawWithInsufficientBalance
+2026-05-28 00:38:25.082 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+2026-05-28 00:38:25.084 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - === Starting test: testWithdrawZeroAmount ===
+2026-05-28 00:38:25.084 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-3
+2026-05-28 00:38:25.778 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:25.796 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:27.994 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:28.006 [TestNG-test-Customer Tests-3] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:28.144 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Neville Longbottom
+2026-05-28 00:38:28.640 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:29.478 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Customer 'Neville Longbottom' logged in. Welcome: Neville Longbottom
+2026-05-28 00:38:29.478 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 00:38:29.941 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:30.032 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:30.034 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - === Starting test: testLogoutReturnsToHomePage ===
+2026-05-28 00:38:30.034 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:30.314 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:31.206 [TestNG-test-Customer Tests-3] INFO  pages.customer.CustomerDashboard - Clicking Withdraw
+2026-05-28 00:38:32.043 [TestNG-test-Customer Tests-3] INFO  pages.customer.WithdrawPage - Clicking Withdraw submit
+2026-05-28 00:38:33.089 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:33.100 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:34.828 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:35.181 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:36.008 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Logging out
+2026-05-28 00:38:36.207 [TestNG-test-Customer Tests-1] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLogoutReturnsToHomePage
+2026-05-28 00:38:36.690 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:36.692 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - === Starting test: testBackButtonReturnsToDashboard ===
+2026-05-28 00:38:36.692 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:39.377 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositInvalidAmount
+2026-05-28 00:38:39.565 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+2026-05-28 00:38:39.567 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+2026-05-28 00:38:39.567 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+2026-05-28 00:38:40.231 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:40.249 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:42.015 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:42.432 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:42.497 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:42.504 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Test scenario: standard deposit
+2026-05-28 00:38:42.511 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:43.108 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:44.011 [TestNG-test-Customer Tests-1] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:44.233 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:44.283 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:44.437 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:44.657 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:44.730 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:44.857 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Transactions
+2026-05-28 00:38:45.343 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:45.555 [TestNG-test-Customer Tests-1] INFO  pages.customer.TransactionsPage - Clicking Back
+2026-05-28 00:38:45.750 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - TEST PASSED: testBackButtonReturnsToDashboard
+2026-05-28 00:38:45.970 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:45.972 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - === Starting test: testTransactionHistoryIsReadOnly ===
+2026-05-28 00:38:45.972 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:46.187 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:46.499 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Deposited 1000. Result: Deposit Successful
+2026-05-28 00:38:46.502 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+2026-05-28 00:38:46.815 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+2026-05-28 00:38:46.817 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+2026-05-28 00:38:46.817 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+2026-05-28 00:38:47.523 [TestNG-test-Customer Tests-3] INFO  tests.customer.WithdrawTest - TEST PASSED: testWithdrawZeroAmount
+2026-05-28 00:38:47.807 [TestNG-test-Customer Tests-3] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-3
+2026-05-28 00:38:49.936 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:49.941 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Test scenario: small deposit
+2026-05-28 00:38:49.961 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:50.020 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:50.029 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:51.875 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:51.890 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:52.345 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:52.357 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:53.055 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:53.105 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:38:54.158 [TestNG-test-Customer Tests-1] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:54.181 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:38:54.382 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:54.484 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Deposited 500. Result: Deposit Successful
+2026-05-28 00:38:54.487 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+2026-05-28 00:38:54.599 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:38:54.684 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+2026-05-28 00:38:54.687 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+2026-05-28 00:38:54.687 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-2
+2026-05-28 00:38:54.887 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:38:55.035 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Transactions
+2026-05-28 00:38:55.760 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - TEST PASSED: testTransactionHistoryIsReadOnly
+2026-05-28 00:38:56.005 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 00:38:56.009 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - === Starting test: testTransactionHistoryPageIsAccessible ===
+2026-05-28 00:38:56.009 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=TestNG-test-Customer Tests-1
+2026-05-28 00:38:57.693 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:57.697 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Test scenario: large deposit
+2026-05-28 00:38:57.709 [TestNG-test-Customer Tests-2] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:59.003 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 00:38:59.017 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:38:59.507 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:39:00.123 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:39:00.797 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:39:00.898 [TestNG-test-Customer Tests-2] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:39:01.202 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:39:01.823 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 00:39:01.949 [TestNG-test-Customer Tests-2] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:39:02.251 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - Deposited 9999. Result: Deposit Successful
+2026-05-28 00:39:02.251 [TestNG-test-Customer Tests-2] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+2026-05-28 00:39:02.535 [TestNG-test-Customer Tests-2] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-2
+2026-05-28 00:39:02.778 [TestNG-test-Customer Tests-1] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 00:39:02.965 [TestNG-test-Customer Tests-1] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 00:39:03.144 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 00:39:03.506 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 00:39:03.727 [TestNG-test-Customer Tests-1] INFO  pages.customer.CustomerDashboard - Clicking Transactions
+2026-05-28 00:39:04.468 [TestNG-test-Customer Tests-1] INFO  tests.customer.TransactionTest - TEST PASSED: testTransactionHistoryPageIsAccessible
+2026-05-28 00:39:04.778 [TestNG-test-Customer Tests-1] INFO  utils.DriverFactory - WebDriver closed for thread: TestNG-test-Customer Tests-1
+2026-05-28 01:04:41.090 [main] INFO  utils.ConfigReader - Loaded configuration from config.properties
+2026-05-28 01:04:41.237 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Amalitech\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 01:04:41.374 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testCustomerDropdownVisible ===
+2026-05-28 01:04:41.376 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:04:48.694 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:04:49.180 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:04:51.122 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testCustomerDropdownVisible
+2026-05-28 01:04:51.354 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:04:51.359 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginButtonDisabledBeforeSelection ===
+2026-05-28 01:04:51.359 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:04:54.313 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:04:54.343 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:04:56.282 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginButtonDisabledBeforeSelection
+2026-05-28 01:04:56.431 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:04:56.436 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 01:04:56.436 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:04:59.329 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:04:59.360 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:05:01.110 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:05:01.477 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:05:02.334 [main] INFO  tests.customer.CustomerLoginTest - Customer 'Harry Potter' logged in. Welcome: Harry Potter
+2026-05-28 01:05:02.343 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 01:05:02.580 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:05:02.585 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 01:05:02.585 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:05:06.385 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:05:06.401 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:05:08.230 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Hermoine Granger
+2026-05-28 01:05:08.572 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:05:09.450 [main] INFO  tests.customer.CustomerLoginTest - Customer 'Hermoine Granger' logged in. Welcome: Hermoine Granger
+2026-05-28 01:05:09.457 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 01:05:09.932 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:05:09.935 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 01:05:09.935 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:05:13.382 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:05:13.390 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:05:15.156 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Ron Weasly
+2026-05-28 01:05:15.538 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:05:16.285 [main] INFO  tests.customer.CustomerLoginTest - Customer 'Ron Weasly' logged in. Welcome: Ron Weasly
+2026-05-28 01:05:16.290 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 01:05:16.543 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:05:16.548 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 01:05:16.548 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:05:20.451 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:05:20.479 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:05:22.470 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Albus Dumbledore
+2026-05-28 01:05:22.762 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:05:23.676 [main] INFO  tests.customer.CustomerLoginTest - Customer 'Albus Dumbledore' logged in. Welcome: Albus Dumbledore
+2026-05-28 01:05:23.680 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 01:05:23.963 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:05:23.968 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLoginWithValidCustomer ===
+2026-05-28 01:05:23.968 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:05:27.087 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:05:27.100 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:05:29.044 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Neville Longbottom
+2026-05-28 01:05:29.564 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:05:30.594 [main] INFO  tests.customer.CustomerLoginTest - Customer 'Neville Longbottom' logged in. Welcome: Neville Longbottom
+2026-05-28 01:05:30.602 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLoginWithValidCustomer
+2026-05-28 01:05:30.863 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:05:30.870 [main] INFO  tests.customer.CustomerLoginTest - === Starting test: testLogoutReturnsToHomePage ===
+2026-05-28 01:05:30.870 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:05:35.258 [main] INFO  tests.customer.CustomerLoginTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:05:35.281 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:05:37.336 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:05:37.802 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:05:38.520 [main] INFO  pages.customer.CustomerDashboard - Logging out
+2026-05-28 01:05:38.765 [main] INFO  tests.customer.CustomerLoginTest - TEST PASSED: testLogoutReturnsToHomePage
+2026-05-28 01:05:39.084 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:10:01.559 [main] INFO  utils.ConfigReader - Loaded configuration from config.properties
+2026-05-28 01:10:01.658 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\Amalitech\AppData\Local\JetBrains\IntelliJIdea2025.3\temp-testng-customsuite.xml
+
+2026-05-28 01:10:01.760 [main] INFO  tests.customer.DepositTest - === Starting test: testBalanceIncreasesAfterDeposit ===
+2026-05-28 01:10:01.761 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:10:07.303 [main] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:10:07.968 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:10:09.529 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:10:09.958 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:10:10.973 [main] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 01:10:12.141 [main] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 01:10:12.386 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:10:12.589 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:10:13.113 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:10:13.446 [main] INFO  tests.customer.DepositTest - TEST PASSED: testBalanceIncreasesAfterDeposit
+2026-05-28 01:10:13.691 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:10:14.387 [main] INFO  tests.customer.DepositTest - === Starting test: testDepositInvalidAmount ===
+2026-05-28 01:10:14.387 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:10:17.414 [main] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:10:17.466 [main] INFO  tests.customer.DepositTest - Invalid deposit scenario: negative amount
+2026-05-28 01:10:17.793 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:10:19.783 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:10:20.203 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:10:20.923 [main] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 01:10:22.313 [main] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 01:10:37.772 [main] INFO  tests.customer.DepositTest - TEST PASSED: testDepositInvalidAmount
+2026-05-28 01:10:37.974 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:10:37.977 [main] INFO  tests.customer.DepositTest - === Starting test: testDepositInvalidAmount ===
+2026-05-28 01:10:37.977 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:10:42.440 [main] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:10:42.447 [main] INFO  tests.customer.DepositTest - Invalid deposit scenario: zero amount
+2026-05-28 01:10:42.460 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:10:44.754 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:10:45.275 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:10:46.033 [main] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 01:10:47.091 [main] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 01:11:02.847 [main] INFO  tests.customer.DepositTest - TEST PASSED: testDepositInvalidAmount
+2026-05-28 01:11:03.100 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:11:03.109 [main] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+2026-05-28 01:11:03.109 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:11:07.463 [main] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:11:07.473 [main] INFO  tests.customer.DepositTest - Test scenario: standard deposit
+2026-05-28 01:11:07.488 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:11:09.866 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:11:10.664 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:11:11.543 [main] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 01:11:12.758 [main] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 01:11:13.067 [main] INFO  tests.customer.DepositTest - Deposited 1000. Result: Deposit Successful
+2026-05-28 01:11:13.071 [main] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+2026-05-28 01:11:13.255 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:11:13.257 [main] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+2026-05-28 01:11:13.257 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:11:16.136 [main] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:11:16.139 [main] INFO  tests.customer.DepositTest - Test scenario: small deposit
+2026-05-28 01:11:16.151 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:11:17.859 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:11:18.337 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:11:19.113 [main] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 01:11:20.320 [main] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 01:11:20.784 [main] INFO  tests.customer.DepositTest - Deposited 500. Result: Deposit Successful
+2026-05-28 01:11:20.795 [main] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+2026-05-28 01:11:21.022 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
+2026-05-28 01:11:21.031 [main] INFO  tests.customer.DepositTest - === Starting test: testDepositValidAmount ===
+2026-05-28 01:11:21.031 [main] INFO  utils.DriverFactory - Creating chrome driver | headless=false | thread=main
+2026-05-28 01:11:25.561 [main] INFO  tests.customer.DepositTest - Navigated to: https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+2026-05-28 01:11:25.570 [main] INFO  tests.customer.DepositTest - Test scenario: large deposit
+2026-05-28 01:11:25.583 [main] INFO  pages.HomePage - Clicking Customer Login
+2026-05-28 01:11:27.893 [main] INFO  pages.customer.CustomerLoginPage - Selecting customer from dropdown: Harry Potter
+2026-05-28 01:11:28.442 [main] INFO  pages.customer.CustomerLoginPage - Clicking Login
+2026-05-28 01:11:29.255 [main] INFO  pages.customer.CustomerDashboard - Clicking Deposit
+2026-05-28 01:11:30.503 [main] INFO  pages.customer.DepositPage - Clicking Deposit submit
+2026-05-28 01:11:30.875 [main] INFO  tests.customer.DepositTest - Deposited 9999. Result: Deposit Successful
+2026-05-28 01:11:30.876 [main] INFO  tests.customer.DepositTest - TEST PASSED: testDepositValidAmount
+2026-05-28 01:11:31.143 [main] INFO  utils.DriverFactory - WebDriver closed for thread: main
