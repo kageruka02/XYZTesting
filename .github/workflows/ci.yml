@@ -123,3 +123,117 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: gh-pages
           publish_dir: allure-report
+      # ── STEP 9: Deploy Allure Report to GitHub Pages ──
+      - name: Publish to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: target/site/allure-maven-plugin/
+
+      # ── STEP 10: Slack - Passed ──
+      - name: Slack Notification - Passed
+        if: always() && steps.run_tests.outputs.has_failures == 'false'
+        run: |
+          curl -X POST -H 'Content-type: application/json' \
+          --data '{
+            "blocks": [
+              {
+                "type": "header",
+                "text": {"type": "plain_text", "text": "✅ All Tests Passed", "emoji": true}
+              },
+              {
+                "type": "section",
+                "fields": [
+                  {"type": "mrkdwn", "text": "*Repository:*\n${{ github.repository }}"},
+                  {"type": "mrkdwn", "text": "*Branch:*\n${{ github.ref_name }}"},
+                  {"type": "mrkdwn", "text": "*Triggered by:*\n${{ github.actor }}"},
+                  {"type": "mrkdwn", "text": "*Commit:*\n${{ steps.run_tests.outputs.commit_msg }}"}
+                ]
+              },
+              {
+                "type": "section",
+                "fields": [
+                  {"type": "mrkdwn", "text": "*Total:* ${{ steps.run_tests.outputs.total }}"},
+                  {"type": "mrkdwn", "text": "*Passed:* ${{ steps.run_tests.outputs.passed }}"},
+                  {"type": "mrkdwn", "text": "*Failed:* 0"},
+                  {"type": "mrkdwn", "text": "*Skipped:* ${{ steps.run_tests.outputs.skipped }}"}
+                ]
+              },
+              {
+                "type": "actions",
+                "elements": [
+                  {
+                    "type": "button",
+                    "text": {"type": "plain_text", "text": "View Run Details"},
+                    "url": "${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+                  },
+                  {
+                    "type": "button",
+                    "text": {"type": "plain_text", "text": "View Allure Report"},
+                    "url": "https://kageruka02.github.io/API-test-automation/"
+                  }
+                ]
+              }
+            ]
+          }' ${{ secrets.SLACK_WEBHOOK_URL }}
+
+      # ── STEP 11: Slack - Failed ──
+      - name: Slack Notification - Failed
+        if: always() && steps.run_tests.outputs.has_failures == 'true'
+        run: |
+          SLACK_DETAILS=$(python3 -c "
+          import json
+          with open('/tmp/slack-details.txt', 'r') as f:
+              text = f.read().strip()
+          print(json.dumps(text)[1:-1])
+          " 2>/dev/null || echo "See Allure report for details")
+
+          curl -X POST -H 'Content-type: application/json' \
+          --data "{
+            \"blocks\": [
+              {
+                \"type\": \"header\",
+                \"text\": {\"type\": \"plain_text\", \"text\": \"❌ Tests Failed — Bug Report\", \"emoji\": true}
+              },
+              {
+                \"type\": \"section\",
+                \"fields\": [
+                  {\"type\": \"mrkdwn\", \"text\": \"*Repository:*\n${{ github.repository }}\"},
+                  {\"type\": \"mrkdwn\", \"text\": \"*Branch:*\n${{ github.ref_name }}\"},
+                  {\"type\": \"mrkdwn\", \"text\": \"*Triggered by:*\n${{ github.actor }}\"},
+                  {\"type\": \"mrkdwn\", \"text\": \"*Commit:*\n${{ steps.run_tests.outputs.commit_msg }}\"}
+                ]
+              },
+              {
+                \"type\": \"section\",
+                \"fields\": [
+                  {\"type\": \"mrkdwn\", \"text\": \"*Total:* ${{ steps.run_tests.outputs.total }}\"},
+                  {\"type\": \"mrkdwn\", \"text\": \"*Passed:* ${{ steps.run_tests.outputs.passed }}\"},
+                  {\"type\": \"mrkdwn\", \"text\": \"*Failed:* ${{ steps.run_tests.outputs.failures }}\"},
+                  {\"type\": \"mrkdwn\", \"text\": \"*Errors:* ${{ steps.run_tests.outputs.errors }}\"}
+                ]
+              },
+              {
+                \"type\": \"section\",
+                \"text\": {\"type\": \"mrkdwn\", \"text\": \"*🔥 Failed Test Details:*\n\`\`\`${SLACK_DETAILS}\`\`\`\"}
+              },
+              {
+                \"type\": \"actions\",
+                \"elements\": [
+                  {
+                    \"type\": \"button\",
+                    \"text\": {\"type\": \"plain_text\", \"text\": \"View Run Details\"},
+                    \"url\": \"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
+                  },
+                  {
+                    \"type\": \"button\",
+                    \"text\": {\"type\": \"plain_text\", \"text\": \"View Allure Report\"},
+                    \"url\": \"https://kageruka02.github.io/API-test-automation/"
+                  }
+                ]
+              }
+            ]
+          }" ${{ secrets.SLACK_WEBHOOK_URL }}
+
